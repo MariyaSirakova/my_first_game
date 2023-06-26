@@ -1,2 +1,2 @@
-# my_first_game
+# my_first_games
 Guess_the_number
