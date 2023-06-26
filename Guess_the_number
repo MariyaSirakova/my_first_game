@@ -1,0 +1,23 @@
+import random
+
+computer_number = random.randint(1, 100)
+
+
+while True:
+    my_number = input("Guess the number between 1 - 100:")
+
+    if not my_number.isdigit():
+        print("Invalid input! Try again!")
+        continue
+
+    if computer_number == int(my_number):
+        print("You guess it!")
+        break
+
+    elif computer_number > int(my_number):
+        print("Too low!")
+
+    elif computer_number < int(my_number):
+        print("Too high!")
+
+
